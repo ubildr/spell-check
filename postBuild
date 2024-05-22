@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# 설치 후 빌드 스크립트
+# 패키지 목록 업데이트
 apt-get update -y
+
+# 필요한 패키지 설치
 apt-get install -y wget unzip
 apt-get install -y chromium-browser
+apt-get install -y chromium-chromedriver
+
+# Python 패키지 설치
 pip install selenium
 pip install webdriver-manager
