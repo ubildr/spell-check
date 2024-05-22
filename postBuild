@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# 설치 후 빌드 스크립트
+apt-get update -y
+apt-get install -y wget unzip
+apt-get install -y chromium-browser
+pip install selenium
+pip install webdriver-manager
